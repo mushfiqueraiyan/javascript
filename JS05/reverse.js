@@ -11,7 +11,7 @@ console.log(reverse)
 
 // different way for reverse
 let rev = ''
-for(let i = 0; i < sentense.length; i++){
+              for(let i = 0; i < sentense.length; i++){
     // console.log(i)
     // console.log(sentense[i]);
 
