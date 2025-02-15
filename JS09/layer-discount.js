@@ -23,5 +23,5 @@ function layerDiscount(quantity){
         return total
     }
 }
-const product = layerDiscount(10)
+const product = layerDiscount(300)
 console.log(product)
