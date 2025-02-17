@@ -78,4 +78,4 @@ function finded(datas){
 }
 
 const dataa = finded(heroBioData)
-console.log(dataa);
+console.log(dataa)
