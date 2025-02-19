@@ -106,9 +106,3 @@ function calaculateSleepTime(times){
 
     return { hour: hour, min: min, sec: sec}
 }
-
-
-
-function timeCalc(times){
-    
-}
