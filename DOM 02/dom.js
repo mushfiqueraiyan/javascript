@@ -17,6 +17,7 @@ function makeYellow(){
 function reset(){
     document.body.style.backgroundColor = 'white'
     document.body.style.color = "black";
+    document.body.style.rotate = "0deg";
 }
 
 const btn = document.querySelector("#btn-make-blue");
@@ -35,4 +36,13 @@ function makePurple(){
 
 
 //03
+
+document.getElementById('btn-make-green').addEventListener('mouseout', function makeGreen(){
+    document.body.style.backgroundColor = 'green'
+    document.body.style.color = 'white'
+    document.body.style.rotate = '-10deg'
+})
+
+
+//04
 
