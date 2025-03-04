@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            border: 2px solid red;
+            margin: 2px;
+        }
+        section{
+            border: 2px solid blue;
+            margin: 2px;
+        }
+        ol{
+            border: 2px solid purple;
+            margin: 2px;
+        }
+        li{
+            border: 2px solid green;
+            margin: 2px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Explore Event Bubble</h1>
+    <section>
+        <h3>List of Things</h3>
+        <ol id="list">
+            <li id="item-1">Lorem, ipsum.</li>
+            <li id="item-2">Facilis, aut?</li>
+            <li id="item-3">Numquam, porro.</li>
+            <li id="item-4">Ut, culpa!</li>
+            <li id="item-5">Nobis, laborum.</li>
+            <li id="item-6">Impedit, velit.</li>
+        </ol>
+    </section>
+    <script>
+        document.querySelector('#item-2').addEventListener('click', function(e){
+                console.log('li 2 clicked')
+                e.stopPropagation() // it will stop the even bubble print always the top valu
+                e.stopImmediatePropagation() // stop bubble and dont print other stuff
+        })
+        document.querySelector('#list').addEventListener('click', function(){
+            console.log('ol clicked');
+        })
+    </script>
+</body>
+</html>
