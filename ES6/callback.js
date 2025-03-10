@@ -11,5 +11,5 @@ const partri2 = function (name){
 }
 
 
-ghotok(patri, "Raiyan")
-ghotok(partri2, "Mushfique")
+ghotok(patri, "Raiyan");
+ghotok(partri2, "Mushfique");
