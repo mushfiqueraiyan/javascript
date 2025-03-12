@@ -5,6 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>fetch</title>
 </head>
+
+<style>
+    .card{
+        border: 1px solid rebeccapurple;
+        padding: 10px;
+        margin-top: 10px;
+    }
+</style>
 <body>
     <p id="userID"></p>
 
@@ -14,9 +22,14 @@
     <button onclick="loadUser()">Load User loadUser.js</button>
 
 
+    <h1>Load All Posts</h1>
+
+        <button onclick="handlePost()">Load Post </button>
 
 
+        <div id="post-container">
 
+        </div>
 
 
 
@@ -28,6 +41,8 @@
 
     <script src="fetch.js"></script>
     <script src="moreApi.js"></script>
+    <script src="postApi.js"></script>
     <script src="loadUser.js"></script>
+    <script src="async.js"></script>
 </body>
 </html>
