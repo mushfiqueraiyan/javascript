@@ -7,7 +7,7 @@ const urls = [
 Promise.all(urls.map(url=>{
     return fetch(url)
         .then((res)=>res.json())
-            .then((data)=> console.log(data))
+            .then((data)=> console.log(data));
 }))
 
 .then((res)=>res)
