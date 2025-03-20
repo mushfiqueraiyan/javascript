@@ -12,3 +12,6 @@ Promise.all(urls.map(url=>{
 
 .then((res)=>res)
     .then((data)=>console.log(data));
+
+
+    
