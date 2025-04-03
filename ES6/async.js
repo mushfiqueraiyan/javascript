@@ -20,4 +20,4 @@ const handleUsers2 = async()=>{
    }
 }
 
-handleUsers2()
+handleUsers2();
