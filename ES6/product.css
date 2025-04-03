@@ -1,0 +1,17 @@
+.cart{
+    margin-top: 15px;
+}
+
+.hidden{
+    display: none;
+}
+
+.cart-container{
+    margin-top: 0px;
+    margin-left: 70px;
+    background-color: gray ;
+    color: white;
+    width: 250px;
+    padding: 15px;
+    border-radius: 8px;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="product.css">
+    <title>Product</title>
+</head>
+<body>
+    
+    <input type="text" placeholder="product name" id="productName">
+    <input type="number" placeholder="product Quantity" id="productQtn">
+
+    <button onclick="handleAddToCart()">Add to cart</button>
+
+
+    <div class="cart">
+        <button id="toggle">View Cart</button>
+        <div class="cart-container hidden">
+           
+        </div>
+    </div>
+
+    <script src="product.js"></script>
+</body>
+</html>
